@@ -22,11 +22,12 @@ Walk into your doctor's appointment prepared, not panicked. **VisitReady** is a 
 
 | 🩺 AI Medical Interview (Light Mode) | 🌙 Focused Input (Dark Mode) |
 | --- | --- |
-| ![Intake Chat](docs/screenshot_initial.png) | ![Dark Mode Typing](docs/screenshot_dark_typing.png) |
+| ![Intake Chat](docs/screenshot_light.png) | ![Dark Mode Typing](docs/screenshot_dark.png) |
 
 | 📋 Generated Prep Sheet & Suggested Questions |
 | --- |
-| ![Prep Sheet Results](docs/screenshot_prep_sheet.png) |
+| ![Prep Sheet Results - Light Mode](docs/screenshot_prep_1.png) |
+| ![Prep Sheet Results - Dark Mode](docs/screenshot_prep_2.png) |
 
 ---
 
