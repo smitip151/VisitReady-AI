@@ -18,20 +18,32 @@ Walk into your doctor's appointment prepared, not panicked. **VisitReady** is a 
 
 ---
 
+## 📸 Screenshots
+
+| 🩺 AI Medical Interview (Light Mode) | 🌙 Focused Input (Dark Mode) |
+| --- | --- |
+| ![Intake Chat](docs/screenshot_initial.png) | ![Dark Mode Typing](docs/screenshot_dark_typing.png) |
+
+| 📋 Generated Prep Sheet & Suggested Questions |
+| --- |
+| ![Prep Sheet Results](docs/screenshot_prep_sheet.png) |
+
+---
+
 ## 🤖 Multi-Agent Architecture & Workflows
 
 VisitReady uses a highly coordinated multi-agent workflow powered by Gemini API to ensure structured, accurate clinical outputs.
 
 ```mermaid
 graph TD
-    A[Patient Input] -->|Interactive Chat| B(Agent 1: Interviewer)
-    B -->|Check Completion| C{All 6 areas gathered?}
+    A["Patient Input"] -->|Interactive Chat| B("Agent 1: Interviewer")
+    B -->|Check Completion| C{"All 6 areas gathered?"}
     C -->|No| B
-    C -->|Yes: [[COMPLETE]]| D(Agent 2: Summarizer)
-    D -->|Raw Transcript to Prep Sheet| E[Visit Prep Sheet]
-    E --> F(Agent 3: Question Generator)
-    F -->|Analyze Prep Sheet| G[Draft Specific Questions]
-    G --> H[Final Prep Sheet & Questions Rendered]
+    C -->|Yes: COMPLETE| D("Agent 2: Summarizer")
+    D -->|Raw Transcript to Prep Sheet| E["Visit Prep Sheet"]
+    E --> F("Agent 3: Question Generator")
+    F -->|Analyze Prep Sheet| G["Draft Specific Questions"]
+    G --> H["Final Prep Sheet & Questions Rendered"]
 ```
 
 ### 1. Interviewer Agent
