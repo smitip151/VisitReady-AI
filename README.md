@@ -1,6 +1,6 @@
 # VisitReady 🩺 - AI-powered prep for your next doctor's visit.
 
-![VisitReady Banner](visitready_banner.png)
+![VisitReady Banner](docs/visitready_banner.png)
 
 Walk into your doctor's appointment prepared, not panicked. **VisitReady** is a modern, responsive single-page application (SPA) powered by Gemini models that guides patients through an intuitive, empathetic medical intake interview. It summarizes concerns, highlights clinical details, and drafts personalized questions to ask the doctor.
 
@@ -26,8 +26,8 @@ Walk into your doctor's appointment prepared, not panicked. **VisitReady** is a 
 
 | 📋 Generated Prep Sheet & Suggested Questions |
 | --- |
-| ![Prep Sheet Results - Light Mode](docs/screenshot_prep_1.png) |
-| ![Prep Sheet Results - Dark Mode](docs/screenshot_prep_2.png) |
+| ![Prep Sheet Results](docs/screenshot_prep_1.png) |
+| ![Prep Sheet Results](docs/screenshot_prep_2.png) |
 
 ---
 
